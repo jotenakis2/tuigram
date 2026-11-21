@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+### Added
+
+- Russian, Ukrainian and Belarusian interfaces: `"language": "ru"`, `"uk"` or `"be"` in
+  `config.json`.
+- Counts are worded in the plural form each language needs: the unread divider reads `1 новое`,
+  `3 новых` in Russian, and the typing line `3 людини друкують…`, `5 людей друкують…` in
+  Ukrainian.
+
+### Fixed
+
+- The unread divider (`── 3 new ──`) is translated; it stayed in English in Bahasa Melayu.
+- The coarse last-seen statuses (`last seen recently` and the like) follow a `language` change
+  without a restart.
+
 ## [1.7.0] - 2026-11-20
 
 ### Added
